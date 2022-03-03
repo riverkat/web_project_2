@@ -6,6 +6,10 @@
 
 @import url(../blocks/recipes.css);
 
+@import url(../blocks/reservations.css);
+
+@import url(../blocks/footer.css);
+
 .page {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;

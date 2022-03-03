@@ -16,7 +16,8 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+  margin: 0;
 }
 
 .recipes__subtitle {
@@ -27,12 +28,34 @@
   line-height: 30px;
   max-width: 438px;
   margin: 0;
+  padding-bottom: 80px;
 }
 
 .recipes__videos {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.video_caption__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
   margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__video-captions {
+  display: flex;
+  flex-basis: 480px;
+  justify-content: space-between;
 }
 
 .recipes__video-caption {
-  margin: 0 auto;
+  margin: 0;
+  padding-top: 24px;
 }
