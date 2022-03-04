@@ -29,41 +29,34 @@
   justify-content: space-between;
 }
 
-.nav__link {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
+.nav-links__item {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   text-decoration: none;
   transition: color 0.5s ease-in;
   padding-right: 20px;
 }
 
-.nav__link:last-of-type {
+.nav-links__item:last-of-type {
   padding-right: 80px;
 }
 
-.nav__link:hover {
+.nav-links__item:hover {
   color: #2f80ed;
 }
 
 .header__title {
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  padding-left: 80px;
-  margin-top: 80px;
-  margin-bottom: 28px;
+  padding: 80px 0 28px 80px;
+  margin: 0;
 }
 
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -73,14 +66,13 @@
   padding-left: 80px;
   max-width: 630px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   margin: 0;
 }
 
 .header__footer {
+  font-family: "Inter", "Arial", sans-serif;
   position: absolute;
   bottom: 40px;
   left: 80px;
@@ -93,20 +85,13 @@
 
 .header__footer_list {
   list-style: none;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
   line-height: 30px;
   margin: 0;
   padding: 0;
 }
 
 .header__address {
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
   line-height: 30px;
   align-self: flex-end;
 }

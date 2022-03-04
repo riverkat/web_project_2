@@ -17,10 +17,13 @@
     />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <divider ="viewport" content="width=device-width, initial-scale=1.0" />
-    <divider ="author" content="Karla Rivera" />
-    <divider ="description" content="" />
-    <divider ="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website for coffeeshop with shop information, recipe ideas, menu, and reservations."
+    />
+    <meta name="keywords" content="coffeeshop, coffee, menu" />
+    <meta name="author" content="Karla Rivera" />
     <title>Practicum Coffee Shop</title>
   </head>
   <body>
@@ -32,11 +35,11 @@
             class="logo"
             alt="Practicum Coffee Shop Logo"
           />
-          <div class="nav__links">
-            <a href="#menu" class="nav__link">Menu</a>
-            <a href="#recipes" class="nav__link">Recipes</a>
-            <a href="#reservations" class="nav__link">Book a table</a>
-            <a href="#contacts" class="nav__link">Contacts</a>
+          <div class="nav-links">
+            <a href="#menu" class="nav-links__item">Menu</a>
+            <a href="#recipes" class="nav-links__item">Recipes</a>
+            <a href="#reservations" class="nav-links__item">Book a table</a>
+            <a href="#contacts" class="nav-links__item">Contacts</a>
           </div>
         </nav>
         <h1 class="header__title">
@@ -155,12 +158,13 @@
             </article>
           </div>
         </section>
+
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <div class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </div>
+          </p>
           <div class="recipes__videos">
             <iframe
               class="recipes__iframe"
@@ -194,6 +198,7 @@
             </div>
           </div>
         </section>
+
         <section id="reservations" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <div class="form__container">
@@ -231,7 +236,7 @@
                 <input
                   class="form__input"
                   id="date-time"
-                  type="datetime-local"
+                  type="date"
                   placeholder="dd.mm.yyyy"
                 />
               </fieldset>
@@ -258,16 +263,31 @@
             </form>
           </div>
         </section>
-        <div class="about__circle"></div>
-        <div class="about__title"></div>
-        <div class="about__content">
-          <div class="about__paragraph"></div>
-        </div>
-        <section class="about"></section>
+
+        <section class="about">
+          <div class="about__circle"></div>
+          <div class="about__circle_animation_blurred"></div>
+          <h2 class="about__title">About the coffeeshop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+        </section>
       </main>
+
       <footer id="contacts" class="footer">
         <div class="footer__columns">
-          <div class="footer__column">
+          <div class="footer__column footer__column_logo">
             <img
               class="footer__logo"
               src="./images/logo_practicum.svg"
@@ -300,7 +320,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyrights">©️ 2022 KarLa R.</p>
+        <p class="footer__copyrights">©️ 2022 KarLa Rivera</p>
       </footer>
     </div>
   </body>
