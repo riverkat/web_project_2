@@ -83,7 +83,7 @@
   box-sizing: border-box;
 }
 
-.header-footer_list {
+.header__footer-list {
   list-style: none;
   line-height: 30px;
   margin: 0;
