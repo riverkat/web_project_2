@@ -49,6 +49,7 @@
   margin: 0;
   position: relative;
   top: 232px;
+  z-index: 2;
 }
 
 .header__paragraph {
