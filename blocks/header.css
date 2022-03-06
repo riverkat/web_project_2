@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: -2;
   height: 100vh;
   padding: 30px 80px 40px 80px;
   min-height: 720px;
@@ -16,7 +15,7 @@
 .header__image {
   max-width: 636px;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   top: 124px;
   right: 5px;
 }
@@ -29,6 +28,7 @@
   margin: 0;
   position: relative;
   top: 202px;
+  z-index: 2;
 }
 
 .header__span-accent {
